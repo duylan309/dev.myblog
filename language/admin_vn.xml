@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CONFIG>
+	<!-- ALERT -->
+	<added>Dữ liệu được thêm thành công ! !</added>
+	<updated>Chỉnh sửa thành công ! !</updated>
+	<error>Xuất hiện lỗi !</error>
+	
+
+	<!--page-->
+	<ADD>Thêm</ADD>
+	<ADDRESS>Địa chỉ</ADDRESS>
+	<ADDTAB>Thêm Tab</ADDTAB>
+	<ALERTNOTADD>Vui lòng kiểm tra lại !</ALERTNOTADD>
+	<ALERTADD>Dữ liệu được thêm thành công !</ALERTADD>
+	<ALERTUPDATE>Chỉnh sữa thành công !</ALERTUPDATE>
+	<ALERTNOTUPDATE>Chỉnh sữa thất bại, vui lòng kiểm tra lại.</ALERTNOTUPDATE>
+	<ALL>Tất cả</ALL>
+	<ABOUTMANAGER>GIỚI THIỆU</ABOUTMANAGER>
+	<UPDATE>Cập nhật</UPDATE>
+	<ADD>Thêm</ADD>
+	<ALERTDELETE>Xóa thành công </ALERTDELETE>
+	<ALTIMAGE>Tên ảnh</ALTIMAGE>
+	<AUTHOR>Tác giả</AUTHOR>
+	<!-- B -->
+	<BACK>Trở lại</BACK>
+	<BANNER>Ảnh Banner</BANNER>
+	
+	<BLOGMANAGER>BLOG</BLOGMANAGER>
+	<BLOG>Blog</BLOG>
+	<BLOGCAT>Blog Categories</BLOGCAT>
+	<!-- C -->
+	<CONSULTANT>Tư Vấn Mua </CONSULTANT>
+	<CONTACTCONTENT>Cài đặt liên hệ</CONTACTCONTENT>
+
+	<COLOR>Màu</COLOR>
+	<CHECKNEW>Video thuộc tin tức ?</CHECKNEW>
+	<CHECKPRODUCT>Video thuộc dự án ?</CHECKPRODUCT>
+	<CHECKYOUTUBE>Youtube link</CHECKYOUTUBE>
+	<CATEGORY>Danh mục</CATEGORY>
+	<CATEGORYMENU>Danh mục menu</CATEGORYMENU>
+	<CATEGORYROOT>Danh mục gốc</CATEGORYROOT>
+	<CATEGORYUPDATE>Category update</CATEGORYUPDATE>
+	<CAREERMANAGER>NGHỀ NGHIỆP</CAREERMANAGER>
+	<COLUMN>Cột</COLUMN>
+	
+	<COMFIRMDELETE>Bạn có muốn xóa ?</COMFIRMDELETE>
+	<COMFIRMUPDATE>Bạn có muốn cập nhật ?</COMFIRMUPDATE>
+	
+	<CONTACT>Liên Hệ</CONTACT>
+	<CONTACTINFO>Thông tin liên hệ</CONTACTINFO>
+	<CONTACTMANAGER>LIÊN HỆ</CONTACTMANAGER>
+	<CONTACTINBOX>Hộp thư</CONTACTINBOX>
+	<CONTACTCONTENT>Nội dung liên hệ</CONTACTCONTENT>
+	
+	<CONTENT>Nội dung</CONTENT>
+	<CONFIGPAYMENT>Payment config</CONFIGPAYMENT>
+	<CONFIGEMAIL>Email config</CONFIGEMAIL>
+	<CONFIG>Cấu hình</CONFIG>
+	
+	<CANCEL>Thoát</CANCEL>
+	<CLIENT>Khách hàng</CLIENT>
+	<CLIENTMANAGER>KHÁCH HÀNG</CLIENTMANAGER>
+	<!-- D -->
+	<DAY>Ngày</DAY>
+	<DESCRIPTION>Miêu tả</DESCRIPTION>
+	<DELETE>Xóa</DELETE>
+	<DISABLE>Ẩn</DISABLE>
+	<DISCOUNT>Giảm giá</DISCOUNT>
+	<DISTRICT>Quận</DISTRICT>
+	<DISTRICTUPDATE>District update</DISTRICTUPDATE>
+	<DATE>Ngày</DATE>
+	<DATEEDIT>Date Edited</DATEEDIT>
+	<!-- E -->
+	<EDIT>Chỉnh sửa</EDIT>
+	<EMAIL>Email</EMAIL>
+	
+	
+	<!-- F -->
+	
+	<FILEDOWNLOAD>File download</FILEDOWNLOAD>
+	<FULLNAME>Tên đầy đủ</FULLNAME>
+	<FREELUNCHMANAGER>Lunch</FREELUNCHMANAGER>
+	<FREELUNCHCONTENT>Nội dung free lunch</FREELUNCHCONTENT>
+	<!-- G -->
+	<GALLERY>Thư viện ảnh</GALLERY>
+	<GENERAL>Bình thường</GENERAL>
+	<GALLERYMANAGER>ẢNH</GALLERYMANAGER>
+	<GALLERYADD>Thêm hình ảnh</GALLERYADD>
+	<GALLERYUPDATE>Cập nhật hình ảnh</GALLERYUPDATE>
+	<GALLERYCATADD>Thêm thư viện ảnh</GALLERYCATADD>
+	<GALLERYCATUPDATE>Cập nhật thư viện ảnh</GALLERYCATUPDATE>
+	<!-- H -->
+	<HOME>Trang chủ</HOME>
+	<HOMEADMIN>Tài khoản Admin</HOMEADMIN>
+	<HOMEFOOTER>Nội dung Footer</HOMEFOOTER>
+	<HOMEMANAGER>TRANG CHỦ</HOMEMANAGER>
+	<HOMETITLE>Tiêu đề trang chủ</HOMETITLE>
+	<HOMESLIDE>Slide hình ảnh trang chủ</HOMESLIDE>
+	<HOMECONTENT>Nội dung trang chủ</HOMECONTENT>
+	<HOMEANIMATION>Hình động trang chủ</HOMEANIMATION>
+	<!-- I -->
+	<ID>Id</ID>
+	<IMAGE>Hình ảnh</IMAGE>
+	<IMAGESLIDE>Slide hình ảnh</IMAGESLIDE>
+	<IMAGEVIEW>Xem hình ảnh</IMAGEVIEW>
+	<INFOFMATION>Thông tin</INFOFMATION>
+	<INSURANCE>Bảo hiểm</INSURANCE>
+	
+	<!-- L -->
+	<LEVEL>Level</LEVEL>
+	<LINK>Link</LINK>
+	<LOGOUT>Logout</LOGOUT>
+	<LOCATION>Địa điểm</LOCATION>
+	<LONGTEXT>Nội Dung Đầy Đủ</LONGTEXT>
+
+	<!-- M -->
+	<MENU>Menu</MENU>
+	<MENUADD>Thêm Menu</MENUADD>
+	<MENUUPDATE>Cập nhật Menu</MENUUPDATE>
+	<META>Meta</META>
+	<METAKEYWORD>Meta keyword</METAKEYWORD>
+	<METADESCRIPTION>Meta Description</METADESCRIPTION>
+	<METATITLE>Meta title</METATITLE>
+	<MEMBER>Member</MEMBER>
+	
+	<!-- N -->
+	<NEWS>Tin Tức</NEWS>
+	<NAVMENU>Nav Menu</NAVMENU>
+	<NAVLEFT>Nav side</NAVLEFT>
+	<NEXT>Next</NEXT>
+	<NEWSMANAGER>TIN TỨC</NEWSMANAGER>
+	<NEWSADD>Thêm tin tức</NEWSADD>
+	<NEWSUPDATE>Cập nhật tin tức</NEWSUPDATE>
+	<NEWSCATMANAGER>DANH MỤC TIN TỨC</NEWSCATMANAGER>
+	<NEWSCATADD>Thêm danh mục tin tức</NEWSCATADD>
+	<NEWSCATUPDATE>Cập nhật danh mục tin tức</NEWSCATUPDATE>
+	<!-- O -->
+	<OURSTORY>Our Story</OURSTORY>
+	<OTHERPAGE>Trang khác</OTHERPAGE>
+	<OTHERINFO>Other Info</OTHERINFO>
+	
+	<!-- Q -->
+	<QUANTITY>Số lượng</QUANTITY>
+	<QUOTEMANAGER>Quote</QUOTEMANAGER>
+	<QUICKADD>Thêm nhanh</QUICKADD>
+	<!-- P -->
+	<PRODUCT>Dự án</PRODUCT>
+	<PASSWORD>Password</PASSWORD>
+	<PASSWORDAGAIN>Comfirm password</PASSWORDAGAIN>
+	<PREVIEW>Trở lại</PREVIEW>
+	<PHONENUMBER>Phone number</PHONENUMBER>
+	<PROFILEMANAGER>THÔNG TIN CÁ NHÂN</PROFILEMANAGER>
+	<PROFILEADD>Thêm thông tin cá nhân</PROFILEADD>
+	<PROFILEUPDATE>Cập nhật thông tin cá nhân</PROFILEUPDATE>
+	
+	<PRODUCTMANAGER>DỰ ÁN</PRODUCTMANAGER>
+	<PRODUCTADD>Thêm dự án</PRODUCTADD>
+	<PRODUCTUPDATE>Cập nhật dự án</PRODUCTUPDATE>
+	
+	<PRODUCTCATMANAGER>DANH MỤC DỰ ÁN</PRODUCTCATMANAGER>
+	<PRODUCTCAT>Danh mục dự án</PRODUCTCAT>
+	<PRODUCTCATADD>Thêm danh mục dự án</PRODUCTCATADD>
+	<PRODUCTCATUPDATE>Cập nhật nhanh mục dự án</PRODUCTCATUPDATE>
+	
+	<PEOPLEMANAGER>TAB PEOPLE</PEOPLEMANAGER>
+	
+	<PUBLISHED>Hiện</PUBLISHED>
+	<UNPUBLISHED>Ẩn</UNPUBLISHED>
+	
+	<POPULARNEWS>5 Tin nổi bật</POPULARNEWS>
+	<PRICE>Giá</PRICE>
+	<!-- R -->
+	<REGISTERINFO>Register Info</REGISTERINFO>
+	<READ>Đã xem</READ>
+	<UNREAD>Chưa xem</UNREAD>
+	<LATEST>Mới nhất</LATEST>
+	<!-- S -->
+	<SAVE>Lưu</SAVE>
+	<SEARCH>Tìm kiếm</SEARCH>
+	<SEARCHPAGE>Search page</SEARCHPAGE>
+	<SEO>SEO</SEO>
+	<SIZE>Size</SIZE>
+	<SORT>Thứ tự</SORT>
+	<STATUS>Trạng thái</STATUS>
+	<SHORTTEXT>Nội Dung Ngắn</SHORTTEXT>
+	
+	<SERVICEMANAGER>DỊCH VỤ</SERVICEMANAGER>
+	<UPDATESERVICE>Cập nhật</UPDATESERVICE>
+	<ADDSERVICE>Thêm</ADDSERVICE>
+	
+	<SERVICEUPDATE>Cập nhật Dịch vụ</SERVICEUPDATE>
+	<SERVICEADD>Thêm Dịch vụ</SERVICEADD>
+	<SERVICECATUPDATE>Cập nhật danh mục Dịch vụ</SERVICECATUPDATE>
+	<SERVICECATADD>Thêm danh mục Dịch vụ</SERVICECATADD>
+	<!-- U -->
+	<UPDATE>Cập nhật</UPDATE>
+	<URL>Url</URL>
+	<USERADD>Add user</USERADD>
+	<USERPAGE>User page</USERPAGE>
+	<USERLOCATION>User - Location</USERLOCATION>
+	<USERUPDATE>User update</USERUPDATE>
+	
+	<!-- T -->
+	<TEAMMANAGER>ĐỘI</TEAMMANAGER>
+	<TEAMADD>Thêm đội</TEAMADD>
+	<TEAMUPDATE>Cập nhật đội</TEAMUPDATE>
+	
+	<TITLE>Tiêu đề</TITLE>
+	<TOTAL>Tổng cộng</TOTAL>
+	
+	<TAGMANAGER>TAG</TAGMANAGER>
+	<TAGUPDATE>Cập nhật tag</TAGUPDATE>
+	<TAGADD>Thêm tag mới</TAGADD>
+	<TAG>Tag</TAG>
+	<TITLEURLCHECK>URL Already Exist </TITLEURLCHECK>
+	<!-- V -->
+	<VALUE>Giá trị</VALUE>
+	<VIEWALL>Xem tất cả</VIEWALL>
+	<VIEW>Xem</VIEW>
+	<VIEWER>Người xem</VIEWER>
+	<VIEWED>Đã xem</VIEWED>
+	<VIEWNOT>Mới</VIEWNOT>
+	<VIEWDETAIL>Xem chi tiết</VIEWDETAIL>
+	<VISITED>Số lượng truy cập</VISITED>
+	<VISITORONLINE>Số người đang online</VISITORONLINE>
+	<VIDEO>Video</VIDEO>	
+	<VIDEOUPDATE>Cập nhật Video</VIDEOUPDATE>
+	<VIDEOADD>Thêm Video</VIDEOADD>
+	<VIDEOMANAGER>Video</VIDEOMANAGER>
+	<!-- W -->
+	<WEBCONFIG>Cài đặt website</WEBCONFIG>
+	<WELCOME>Xin chào</WELCOME>
+	<WRITER>Writer</WRITER>
+</CONFIG>

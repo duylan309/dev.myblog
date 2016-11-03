@@ -1,0 +1,188 @@
+*{
+	padding:0px ; margin:0px;
+}
+.clear{
+	clear:both;
+}
+body{
+	background:#5E5E5E url(../phn_imagedesign/br3.png);
+	
+}
+.wrap {
+	margin:0 auto;
+	width:800px;
+	/*background:#282828;*/
+	color:#CCCCCC;
+	background:#282828 url(../phn_imagedesign/br1.png);
+}
+
+#header{
+	padding:10px;
+}
+.header>.mylogo {
+	float:left; width:30%;
+}
+
+.header>.mylogo>img{
+	width:100%;
+}
+
+.header>.banner {
+	float:left; width:70%;
+}
+
+#footer {
+	/*background:transparent url(phn1.gif) left -660px;*/
+	background:transparent url(../phn_imagedesign/temp1.gif) left -367px;
+	background:#282828 url(../phn_imagedesign/tabnen.png) -100px top repeat-y;
+	padding:10px;
+}
+
+
+#main_content
+{
+	padding-top:0px;
+}
+#main_content>.wrap>.left{
+	width:78%; float:right; 
+}
+#main_content>.wrap>.right{
+	width:22%; float:right;
+}
+
+.lleft{
+	background:transparent url(../phn_imagedesign/tabnen.png) -300px top repeat-y; margin:8px 8px;
+}
+
+#search{
+	padding:45px; text-align:center;
+}
+#search input{
+	padding:3px 15px;
+}
+#menu {
+	width:100%;/*background:transparent url(../phn_imagedesign/temp1.gif) left -272px;*/
+	background: transparent url(../phn_imagedesign/tab44.png) left -384px;
+}
+#menu ul {
+	line-height:normal;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	
+}
+
+#menu ul>li{
+float:left;
+
+}
+#menu ul>li>a{
+	/*background:transparent url(../phn_imagedesign/img03.jpg) right 7px no-repeat;*/
+	border:medium none;
+	color:#325C12;
+	display:block;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:13px;
+	margin:5px 3px 5px;
+	padding:5px 20px;
+	text-decoration:none;
+}
+		ul,lo{
+			list-style-image:none;
+			list-style-position:outside;
+			list-style-type:none;
+		}
+		h2.title{
+			font-size:16px; padding:12px 10px 2px; color:#999; text-transform:capitalize;
+			/*background:transparent url(../phn_imagedesign/temp1.gif) left -226px;*/
+			background: transparent url(../phn_imagedesign/tab44.png) left -384px;
+		}
+		
+		
+		#new_info h2.title{
+			/*background:#E3D5C1; color:#999999;*/
+		
+		}
+
+		#new_info>ul.content>li>a{
+			padding:5px 0px 5px 10px;
+			background:transparent url(../phn_imagedesign/tabnen.png) -300px top repeat-y;
+			margin-top:2px;
+			display:block;
+			text-decoration:none;	color:#52575B;
+		}
+		
+		#new_info>ul.content>li>a:hover{
+			background:transparent url(../phn_imagedesign/tabnen.png) -400px top repeat-y;
+			cursor:pointer; color:#FFFFFF;
+		}
+		
+		#ebook>ul.content>li>a{
+			padding:5px;
+			padding-left:10px; margin-top:2px;
+			background:transparent url(../phn_imagedesign/tabnen.png) -400px top repeat-y;
+			display:block;color:#52575B; text-decoration:none;
+		}
+		#ebook>ul.content>li>a:hover{
+			background:transparent url(../phn_imagedesign/tabnen.png) -500px top repeat-y; cursor:pointer; color:#FFFFFF;
+		}
+		
+		
+		#ads>ul.content>li>a{
+			padding:5px 0px 5px 10px;
+			margin-top:2px;
+			background:transparent url(../phn_imagedesign/tabnen.png) -500px top repeat-y;
+			display:block;color:#52575B; text-decoration:none;
+		}
+		
+		#ads>ul.content>li>a:hover{
+			background:transparent url(../phn_imagedesign/tabnen.png) -600px top repeat-y;; cursor:pointer; color:#FFFFFF;
+		}
+		
+		
+		.ads>img{
+			width:100%; border:none;	
+		}
+		
+		.designtop .sleft{
+			width:50%; float:left;
+			height:10px;
+			background:transparent url(../phn_imagedesign/vuong.png) left 0px;
+		}
+		
+		.designtop .sright{
+			width:50%; float:right;height:10px;background:transparent url(../phn_imagedesign/vuong.png) right 0px;
+		}
+		
+		.designbottom .sleft{
+			width:50%; float:left;
+			height:10px;
+			background:transparent url(../phn_imagedesign/vuong.png) left bottom;
+		}
+		
+		.designbottom .sright{
+			width:50%; float:right;height:10px;background:transparent url(../phn_imagedesign/vuong.png) right bottom;
+		}
+		
+		
+		
+	#maincontent{
+		color:#444;
+	}	
+	
+	.maincontent{
+		/*padding:0px 5px; */
+	}
+	.maincontent{
+		color:#999999;
+	}
+	.maincontent>.p_detail{
+		width:33.3%; float:left; height:300px;	
+	}
+	
+	.maincontent>.p_detail>.p_info{
+		padding:3px;
+	}
+	.maincontent>.p_detail>.p_info>img{
+		width:100%; height:250px;
+	}

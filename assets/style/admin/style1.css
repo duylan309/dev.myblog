@@ -1,0 +1,379 @@
+*{
+	padding:0px ; margin:0px;
+}
+.clear{
+	clear:both;
+}
+body{
+	background:#FFF;
+	-x-system-font:none;
+	font-family:arial;
+	font-size:75%;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:150%;
+	color:#222;
+	
+}
+a{
+	color:#222; text-decoration:none;
+}
+a:hover{
+	color:#AC862C;
+}
+
+a.a1
+{
+	color:#844200;
+}
+
+a.a1:hover
+{
+	color:#0099FF;
+}
+label.add_new a
+{
+	padding:5px 10px; background-color:#AC862C; cursor:pointer; color:#fff; display:inline-block; 
+}
+
+.btDelete
+{
+	padding:1px 6px; background-color:#ddd; cursor:pointer; color:#222; display:inline-block; -moz-border-radius: 6px; border-radius: 6px; -webkit-border-radius:6px;
+}
+
+h3.add_new
+{
+	text-align:center; padding:5px;
+}
+.wrap {
+	margin:0 auto;
+	width:98%;
+	color:#121212;
+}
+
+.wrap  table{
+	color:#222222;
+	border:1px solid #EEEEEE;
+	border-collapse:collapse;
+}
+
+.wrap  table td{
+	border:1px solid #ddd;
+}
+
+.gender span{ display:inline-block; padding-right:10px;}
+
+td.t1{
+	width:100px; padding:5px; text-align:right;
+}
+tr td.t2{
+	width:10px;
+}
+
+.wrap  table.listItem tr:nth-child(even) td {background: #EEE}
+.wrap  table.listItem tr:hover td {background: #E5F1F4; cursor:pointer;}
+
+.btnUpdate{ padding:4px 0px;}
+.btnUpdate input{ text-transform:uppercase; font-size:10pt; font-weight:bold; color:#AC862C; background:#DDD; border:none; display:inline-block; padding:4px 10px;}
+
+
+.divPageTop{ display:block; clear:both; padding:10px 0px;}
+table tr.thead{ text-align:center;}
+table tr.thead td{ padding:5px 0px;background-color:#B9BBBD; font-weight:bold;}
+table tr.tSearch td{ padding:5px 0px;background-color:#EEE; font-weight:bold;}
+table tr.tSearch td input{ width:40px; display:block; margin:0px auto;}
+table tr.tSearch td input.fTitle{ width:140px;}
+table tr.tSearch td input.fUrl{ width:100px;}
+table tr.tSearch td .fSatus{ width:80px;}
+
+table tr td.col1, table tr td.col2, table tr td.col6, table tr td.col7{ text-align:center}
+table tr td.col1 a{ display:inline-block; width:25px;}
+
+#header{
+	padding:10px 0px;
+}
+.header .mylogo {
+	float:left; width:35%;
+}
+.header .mylogo h1{ line-height:20px; height:20px; font-size:16pt; padding:0px 0px; margin:0px; display:block;}
+.header .mylogo h1 a{ color:#222; text-decoration:none;}
+
+.header .mylogo img{
+	width:100%;
+}
+
+.header .banner {
+	float:left; width:65%;display:none;
+}
+
+.middle{
+	margin-bottom:5px;
+}
+
+#footer {
+	background:#282828 url(../phn_imagedesign/tabnen.png) -100px top repeat-y;
+	padding:10px;
+}
+.wrapBottom{ position:relative; padding:30px 0px 10px; margin-top:20px;}
+.spaceBG{ position:absolute; top:0px; left:0px; width:100%; height:2px; border-bottom:1px solid #999;  border-top:1px solid #222; }
+
+#main_content
+{
+	padding-top:0px;
+}
+
+#main_content .wrap .left{
+	width:18%;
+	float:left;
+}
+#main_content .wrap .right{
+	width:82%;
+	float:left;
+}
+.rightContent{
+	padding-left:12px;
+}
+
+.header{ padding:10px 0px;}
+#search{
+	padding:14px; text-align:center;
+}
+#search input{
+	padding:3px 15px;
+}
+#menu {
+	background:#B9BBBD; position:relative;
+}
+#menu ul {
+	line-height:normal;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	
+}
+
+#menu ul li{
+float:left; overflow:hidden;
+}
+#menu ul li:first-child{
+	margin-left:20px;
+}
+#menu ul li:hover{ overflow:visible;}
+#menu ul li a{
+	border:medium none;
+	color:#FFF;
+	text-transform:uppercase;
+	display:block;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:9pt;
+	margin:5px 3px 5px;
+	padding:5px 14px 5px 0px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.menu li .blockSubMenu{position:relative; 
+opacity:0; 
+filter:alpha(opacity=0);
+-webkit-transition:opacity 0.3s ease-in;
+-moz-transition:opacity 0.3s ease-in;
+-o-transition:opacity 0.3s ease-in;
+transition:opacity 0.3s ease-in;}
+
+.menu li:hover .blockSubMenu{
+	opacity:1; filter:alpha(opacity=70);
+	}
+
+.listSubMenu{
+	position:absolute; 
+	left:0px; top:1px; 
+	background-color:#999;
+}
+
+#menu ul li .listSubMenu a{
+	border-left:none; 
+	color:#FFF;
+	border-top:1px dashed #DDD; 
+	padding:2px 10px 2px 8px; 
+	line-height:18px; 
+	height:18px; 
+	width:160px; 
+	text-align:left;
+	overflow:hidden;
+	text-transform:capitalize;
+	font-size:9pt; font-weight:bold;
+}
+#menu ul li .listSubMenu a:hover{color:#FFF;}
+#menu ul li .listSubMenu a:first-child{ border:none;}
+
+
+.idLanguage{ 
+	position:absolute; 
+	top:-25px; 
+	right:0px; 
+	display:block; 
+	text-align:right;
+}
+.idLanguage li{ 
+	display:inline-block;
+}
+#menu .idLanguage li a{ 
+	color:#AC862C;
+	text-transform:capitalize; 
+	font-size:9pt; font-weight:bold;
+	padding:0px 0px 0px 10px;
+}
+
+		ul,lo{
+			list-style-image:none;
+			list-style-position:outside;
+			list-style-type:none;
+		}
+		
+		ul.content{ padding:0px; margin:0px;}
+		
+		h2.title{
+			font-size:16px; padding:8px 10px 8px 20px; color:#AC862C; text-transform:uppercase; font-weight:bold;
+			background:#EEEEEE;
+		}
+		.rightContent h2.title{ margin-bottom:12px;}
+		.new_info{ background-color:#EEE;}
+		.new_info h2.title{
+			 cursor:pointer;
+			 background:#AC862C;
+			 color:#FFF;
+			 font-size:9pt;
+			 height:30px; margin:0px; padding:0px 5px 0px 12px; line-height:30px; overflow:hidden;
+		}
+
+		.new_info ul.content li a{
+			padding:5px 0px 5px 20px;
+			margin-top:2px;
+			display:block; font-size:9pt;
+			text-decoration:none;	color:#333; font-weight:bold; text-transform:capitalize;
+		}
+		
+		.new_info ul.content li a:hover{
+			background:transparent url(../phn_imagedesign/tabnen.png) -400px top repeat-y;
+			cursor:pointer; color:#999;
+		}
+		
+		#ebook ul.content li a{
+			padding:5px;
+			padding-left:10px; margin-top:2px;
+			background:transparent url(../phn_imagedesign/tabnen.png) -400px top repeat-y;
+			display:block;color:#52575B; text-decoration:none;
+		}
+		#ebook ul.content li a:hover{
+			background:transparent url(../phn_imagedesign/tabnen.png) -500px top repeat-y; cursor:pointer; color:#FFFFFF;
+		}
+		
+		ul.listCategory{ display:block; text-align:justify; padding:10px;}
+		ul.listCategory li{ display:inline-block;}
+		ul.listCategory li .listCheckbox{text-align:center; padding:0px 10px;}
+		
+		#ads ul.content li a{
+			padding:5px 0px 5px 10px;
+			margin-top:2px;
+			background:transparent url(../phn_imagedesign/tabnen.png) -500px top repeat-y;
+			display:block;color:#52575B; text-decoration:none;
+		}
+		
+		#ads ul.content li a:hover{
+			background:transparent url(../phn_imagedesign/tabnen.png) -600px top repeat-y;; cursor:pointer; color:#FFFFFF;
+		}
+		
+		.ads img{
+			width:100%; border:none;	
+		}
+		
+		.productTitle{ display:block; padding:10px 10px; font-size:11pt; background-color:#EEE; font-weight:bold;}
+		.productTitle span{ color:#AC862C; font-weight:normal;}
+	#maincontent{
+		color:#444;
+	}	
+	
+	.maincontent{
+		/*padding:0px 5px; */
+	}
+	
+	.maincontent{
+		color:#999999;
+	}
+	.maincontent .p_detail{
+		width:33.3%; float:left; height:300px;	
+	}
+	
+	.maincontent .p_detail .p_info{
+		padding:3px;
+	}
+	.maincontent .p_detail .p_info img{
+		width:100%; height:250px;
+	}
+	
+	.checkStatus{ display:inline-block;  color:#F00; font-weight:bold; padding:0px 5px;}
+	
+	.pageIndex{ padding-bottom:10px; text-align:right;}
+	.pageIndex ul li{ display:inline-block; list-style-type:none;}
+	.pageIndex ul li a{ font-weight:bold; padding:4px; display:block; font-size:11pt;}
+	.pageIndex ul li a.actived{ background-color:#EEE;}
+	
+	.meta_click, .input_content {    
+	color: #FF0000;    cursor: pointer;    display: block;    font-weight: bold;    padding: 5px;    text-align: right;    width: 100px;
+	}
+	.meta_table {
+		display: none;
+	}	
+	iframe{
+		width:820px;
+	}
+	
+	.paneBlock body{ font-size:12px !important; font-family:Arial, Helvetica, sans-serif;}
+		
+	input.input{ width:300px; padding:2px;}
+	input.inputTitle{ min-width:400px;}
+	
+	.inputSize span{ display:block; width:50px; margin-right:5px; float:left; text-align:center;}
+	.inputSize span input{ width:40px; display:block; text-align:center; margin:0p auto;}
+	
+	
+	ul.product_menu{ display:block; clear:both; background-color:#EEE; margin:0px 0px 10px !important; padding:0px 0px !important;}
+	ul.product_menu li{ display:inline-block; padding:0px !important; margin:0px !important;}
+	ul.product_menu li:hover, ul.product_menu li.actived{ background-color:#B9BBBD;}
+	ul.product_menu li a{ display:block; padding:0px 10px; text-transform:uppercase; font-weight:bold; margin:0px !important; color:#222; height:32px !important; line-height:32px; font-size:12px;}
+	ul.product_menu li.actived a{ color:#AC862C;}
+	
+	input.buttonAdd{ display:inline-block; text-align:center; min-width:80px; padding:20px 40px; text-transform:uppercase; font-weight:bold;border:none;background:#AC862C;color:#fff;
+	
+	}
+	
+	.add_category{ display:inline-block; padding:0px 6px; border:1px solid #DDD; background-color:#EEE; -moz-border-radius: 6px; border-radius: 6px; -webkit-border-radius:6px;}
+	
+	/********design tab *******/
+	.content-tab{ display:block; width:100%;}
+	ul.jquery-tabs{ list-style:none; display:block;  padding:10px 10px 0px 5px; }
+	ul.jquery-tabs li{ display:inline;}
+	ul.jquery-tabs li a{ display:inline-block; border:1px solid #888887; background-color:#FFF; height:20px; padding:4px 10px 2px; margin-left:3px; border-bottom-color:#FFF;  -moz-border-radius: 8px 8px 0px 0px; }
+	
+	ul.jquery-tabs li a.current{ border:1px solid #AC862C ; border-bottom-color:#FFF; color:#AC862C; font-weight:bold; }
+	
+	.jquery-panes{ text-align:justify; display:block; padding:0px;}
+	.paneBlock{ display:block;}
+	/********design tab 1 *******/
+	.content-tab-1{ display:block; width:100%;}
+	ul.jquery-tabs-1{ list-style:none; display:block;  padding:10px 10px 0px 5px; }
+	ul.jquery-tabs-1 li{ display:inline;}
+	ul.jquery-tabs-1 li a{ display:inline-block; border:1px solid #888887; background-color:#FFF; height:20px; padding:4px 10px 2px; margin-left:3px; border-bottom-color:#FFF;  -moz-border-radius: 8px 8px 0px 0px; }
+	
+	ul.jquery-tabs-1 li a.current{ border:1px solid #AC862C ; border-bottom-color:#FFF; color:#AC862C; font-weight:bold; }
+	
+	.jquery-panes-1{ text-align:justify; display:block; padding:0px;}
+	.paneBlock-1{ display:block;}
+	
+	
+.uiContent{width:800px;float:left;}	
+.fixClass{position:relative;float:left;width:100px;height:200px;margin-left:20px;margin-top:38px;}
+.rightContent h2.title{display:none};

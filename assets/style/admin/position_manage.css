@@ -1,0 +1,53 @@
+	@charset "utf-8";
+	*{
+		padding:0px;
+		margin:0px;
+	}
+	.manage_adv
+	{
+		width:100%;
+	}
+	.adv_panel
+	{
+		width:100%;
+		margin:0px auto;
+	}
+	.input
+	{
+		display:block;
+		margin:5px 0px;
+		height:22px;
+	}
+	.input span{
+		width:35%;
+		text-align:right;				
+		padding:2px;
+		padding-right:5px;
+		background:#F5F5F5;
+		color:#0000FF;
+		float:left;
+		border:1px outset;
+		margin-right:5px;
+	}
+	.input .input_{
+		width:58%;
+		height:22px;
+		display:block;
+		text-align:left;
+		float:left;
+	}
+	
+	.edit_adv , .view_adv , .delete_adv
+	{			
+		float:right;
+		width:10%;
+		border:1px solid;
+		padding:3px;
+		
+		text-align:center;
+	}
+	.clear
+	{
+		clear:both;
+		height:0px;
+	}

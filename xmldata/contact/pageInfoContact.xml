@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+  <info langId="1">
+    <title_en>Contact</title_en>
+    <title_vn>Contact</title_vn>
+    <header_vn>We would be happy to hear from you!</header_vn>
+    <header_en>We would be happy to hear from you!</header_en>
+    <location_vn>97/1 Le Quang Dinh street&lt;br /&gt;&#13;
+Binh Tanh district&lt;br /&gt;&#13;
+Ho Chi Minh city, Vietnam</location_vn>
+    <location_en>97/1 Le Quang Dinh street&lt;br /&gt;&#13;
+Binh Tanh district&lt;br /&gt;&#13;
+Ho Chi Minh city, Vietnam&lt;br /&gt;&#13;
+&lt;br /&gt;</location_en>
+    <connect_vn>&lt;strong&gt;T&lt;/strong&gt;+84 3551 5508&lt;br /&gt;&#13;
+&lt;strong&gt;E&lt;/strong&gt; us@dinosaur.vn&lt;br /&gt;&#13;
+&lt;strong&gt;W&lt;/strong&gt; www.dinosaur.vn</connect_vn>
+    <connect_en>&lt;strong&gt;T&lt;/strong&gt;+84 3551 5508&lt;br /&gt;&#13;
+&lt;strong&gt;E&lt;/strong&gt; us@dinosaur.vn&lt;br /&gt;&#13;
+&lt;strong&gt;W&lt;/strong&gt; www.dinosaur.vn</connect_en>
+  </info>
+</information>

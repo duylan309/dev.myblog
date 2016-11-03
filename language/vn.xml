@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CONFIG>
+	<!-- A -->
+	<ADDRESS>Địa chỉ</ADDRESS>
+	<ABOUTFOOTER>Giới thiệu</ABOUTFOOTER>
+	<ADMISSIONFOOTER>Tuyển sinh</ADMISSIONFOOTER>
+	<!-- B -->
+	<BACKTOTOP>Back to top</BACKTOTOP>
+	<BACK>Trở lại</BACK>
+	<BANNER>Ảnh Banner</BANNER>
+
+	<!-- C -->
+	<CHECKYOUTUBE>Youtube link</CHECKYOUTUBE>
+	<CITY>Thành phố/ Tỉnh</CITY>
+	<CONTENT>Nội dung</CONTENT>
+	<CLIENT>Khách hàng</CLIENT>
+	<COMMENT>Bình luận</COMMENT>
+	<CONNECT>Liên hệ</CONNECT>
+	<CONTACTINFORMATION>Thông tin liên hệ</CONTACTINFORMATION>
+	<COURSESFOOTER>Chương trình học</COURSESFOOTER>
+	<CATEGORIES>Danh mục</CATEGORIES>
+	<CURRENTPASSWORD> Mật Khẩu Hiện Tại</CURRENTPASSWORD>
+	<CONFIRMPASSWORD>Xác nhận mật khẩu</CONFIRMPASSWORD>
+	<CHANGEPASSWORD>Đổi Mật Khẩu</CHANGEPASSWORD>
+	<CAPTCHA>Nhập captcha</CAPTCHA>
+	
+	<!-- D -->
+	<DATE>Ngày</DATE>
+	<!-- E -->
+	<EMAIL>Thư điện tử</EMAIL>
+	<ENTEREMAIL>Nhập email</ENTEREMAIL>
+	<EMAILPASSWORDNOTMATCH>Tên đăng nhập hoặc mật khẩu không đúng.</EMAILPASSWORDNOTMATCH>
+	<!-- F -->
+	<FORGOTPASSWORD>Quên mật khẩu ?</FORGOTPASSWORD>
+	<FULLNAME>Tên đầy đủ</FULLNAME>
+	<FINDUS>Kết nối: </FINDUS>
+	<!-- I -->
+	<IAMAMEMBER>Tôi là thành viên</IAMAMEMBER>
+	
+	<!-- G -->
+	
+	
+	<!-- H -->
+	
+	
+	
+	<!-- K -->
+	
+	
+	<!-- L -->
+	<LOGOUT>Thoát</LOGOUT>
+	<LOGIN>Đăng nhập</LOGIN>
+	<LATESTNEWS>Tin mới nhất</LATESTNEWS>
+	<!-- M -->
+	<MESSAGE>Nội dung</MESSAGE>
+	<MESSGETNEWPASS>Vui lòng kiểm tra email của bạn để nhận được mật khẩu mới.</MESSGETNEWPASS>
+	<MESSLOGOUT>Bạn đã đăng xuất thành công.</MESSLOGOUT>
+	<!-- N -->
+	<NAME>Tên</NAME>
+	<NEWPASSWORD>Mật khẩu mới</NEWPASSWORD>
+	<!-- O -->
+	<OTHERNEWS>Tin khác</OTHERNEWS>
+	<OTHERINFORMATION>Thông tin khác</OTHERINFORMATION>
+	<!-- P -->
+	<PASSWORD>Mật khẩu</PASSWORD>
+	<PASSWORDAGAIN>Xác nhận mật khẩu</PASSWORDAGAIN>
+	<PERSONALINFORMATION>Thông tin cá nhân</PERSONALINFORMATION>
+	<PHONENUMBER>Số điện thoại</PHONENUMBER>
+	
+	<!-- Q -->
+	<QUICKVIEW>Xem nhanh</QUICKVIEW>
+	
+	<!-- R -->
+	<RESOURCEFOOTER>Tham khảo</RESOURCEFOOTER>
+	<READMORE>Xem thêm</READMORE>
+	<READALL>Xem tất cả</READALL>
+	<REQUESTBROCHURE>Yêu Cầu Brochure</REQUESTBROCHURE>
+	<REQUESTDRIVE>Đăng Ký Lái Thử</REQUESTDRIVE>
+
+	<!-- S -->
+	<SUPPORT>Hỗ trợ</SUPPORT>
+	<SEND>Gửi</SEND>
+	<SAVE>Lưu</SAVE>
+	<!-- T -->
+	
+	<TITLE>Tiêu đề</TITLE>
+	<TAGS>Tags</TAGS>
+	<!-- U -->
+	<USERNAME>Tên đăng nhập</USERNAME>
+	<!-- V -->
+	<VIEWMORE>Xem thêm</VIEWMORE>
+
+	<YOUSHOULDKNOW>Bạn cần biết</YOUSHOULDKNOW>
+	
+	<!-- W -->
+	
+	
+</CONFIG>

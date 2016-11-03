@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>elFinder 2.1.x source version with PHP connector</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+
+		<!-- jQuery and jQuery UI (REQUIRED) -->
+		<link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+		<!-- elFinder CSS (REQUIRED) -->
+		<link rel="stylesheet" type="text/css" href="css/elfinder.min.css">
+		<link rel="stylesheet" type="text/css" href="css/theme.css">
+
+		<!-- elFinder JS (REQUIRED) -->
+		<script src="js/elfinder.min.js"></script>
+
+		<!-- GoogleDocs Quicklook plugin for GoogleDrive Volume (OPTIONAL) -->
+		<!--<script src="js/extras/quicklook.googledocs.js"></script>-->
+
+		<!-- elFinder translation (OPTIONAL) -->
+		<!--<script src="js/i18n/elfinder.ru.js"></script>-->
+
+		<!-- elFinder initialization (REQUIRED) -->
+		
+		<script type="text/javascript">
+		  var FileBrowserDialogue = {
+				init: function() {
+					// Here goes your code for setting your custom things onLoad.
+				},
+				mySubmit: function (file, fm) {
+				 	// pass selected file data to TinyMCE
+					parent.tinymce.activeEditor.windowManager.getParams().oninsert(file, fm);
+					// close popup window
+					parent.tinymce.activeEditor.windowManager.close();
+				}
+			}
+			// disable HTML quicklook plugin
+			elFinder.prototype.commands.quicklook.plugins[1] = null;
+			// Documentation for client options:
+			// https://github.com/Studio-42/elFinder/wiki/Client-configuration-options
+			$().ready(function() {
+
+				var getLang = function() {
+					try {
+						var full_lng = (navigator.browserLanguage || navigator.language || navigator.userLanguage);
+						var lng = full_lng.substr(0,2);
+						if (lng == 'ja') lng = 'jp';
+						else if (lng == 'pt') lng = 'pt_BR';
+						else if (lng == 'zh') lng = (full_lng.substr(0,5) == 'zh-tw')? 'zh_TW' : 'zh_CN';
+
+						if (lng != 'en') {
+							var script_tag		= document.createElement("script");
+							script_tag.type		= "text/javascript";
+							script_tag.src		= "js/i18n/elfinder."+lng+".js";
+							script_tag.charset = "utf-8";
+							$("head").append(script_tag);
+						}
+
+						return lng;
+					} catch(e) {
+						return 'en';
+					}
+				};
+
+				var elfinderInstance = $('#elfinder').elfinder({
+					resizable: ,
+					height: $(window).height() - 20,
+					ui  : ['toolbar', 'places', 'tree', 'path', 'stat'],
+					url : 'php/connector.minimal.php',  // connector URL (REQUIRED)
+					lang: getLang()                     // language (OPTIONAL)
+					,getFileCallback: function(file) { // editor callback
+						// file.url - commandsOptions.getfile.onlyURL = false (default)
+						// file     - commandsOptions.getfile.onlyURL = true (best with this alternative code)
+						FileBrowserDialogue.mySubmit(file, elfinderInstance); // pass selected file path to TinyMCE 
+					}
+				}).elfinder('instance');
+
+				// set document.title dynamically etc.
+				var title = document.title;
+				elfinderInstance.bind('open', function(event) {
+					var data = event.data || null;
+					var path = '';
+					
+					if (data && data.cwd) {
+						path = elfinderInstance.path(data.cwd.hash) || null;
+					}
+					document.title =  path? path + ':' + title : title;
+				});
+
+				// fit to window.height on window.resize
+				var resizeTimer = null;
+				$(window).resize(function() {
+					resizeTimer && clearTimeout(resizeTimer);
+					resizeTimer = setTimeout(function() {
+						var h = parseInt($(window).height()) - 20;
+						if (h != parseInt($('#elfinder').height())) {
+							elfinderInstance.resize('100%', h);
+						}
+					}, 200);
+				});
+
+			});
+		</script>
+
+	</head>
+	<body>
+
+		<!-- Element where elFinder will be created (REQUIRED) -->
+		<div style="height:100%" id="elfinder"></div>
+
+	</body>
+</html>

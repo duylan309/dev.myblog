@@ -1,0 +1,76 @@
+
+/********************************
+ * generic als elements styling
+ ********************************/
+.als-container {
+	position: relative;
+	width:60px;
+	margin: 0px auto;
+}
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+	height:450px;
+}
+
+.als-wrapper {
+	position: relative;
+	list-style: none;
+}
+
+.cloud-zoom-gallery{
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+
+.als-prev, .als-next {
+	cursor: pointer;
+	clear: both;
+}
+.als-prev img, .als-next img{width:15px;margin:10px}
+
+
+/************************
+ * specific als element
+ * styling for .zoom-desc
+ ***********************/
+
+.zoom-desc {
+	margin-bottom: 80px;
+}
+
+.zoom-desc .cloud-zoom-gallery{
+	margin: 5px 0px;
+	min-width: 60px;
+}
+
+.zoom-desc .cloud-zoom-gallery img {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+
+.zoom-desc .als-prev, .zoom-desc .als-next {
+	left: 470px;
+	width: 22px;
+	height: 15px;
+}
+
+.zoom-desc .als-prev {
+	top: -25px;
+}
+
+.zoom-desc .als-next {
+	bottom: -20px;
+}
+
+.zoom-desc .cloud-zoom-gallery{
+	vertical-align: middle;
+}
+

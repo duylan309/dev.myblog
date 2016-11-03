@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CONFIG>
+	<!-- A -->
+	<ADDRESS>Địa chỉ</ADDRESS>
+	<ABOUTFOOTER>About us</ABOUTFOOTER>
+	<ADMISSIONFOOTER>Adminssion</ADMISSIONFOOTER>
+	<!-- B -->
+	<BACKTOTOP>Back to top</BACKTOTOP>
+	<BACK>Back</BACK>
+	<BANNER>Banner</BANNER>
+	<!-- C -->
+	<CHECKYOUTUBE>Youtube link</CHECKYOUTUBE>
+	<CITY>Thành phố/ Tỉnh</CITY>
+	<CONTENT>Nội dung</CONTENT>
+	<CLIENT>Khách hàng</CLIENT>
+	<COMMENT>Bình luận</COMMENT>
+	<CONNECT>Liên hệ</CONNECT>
+	<CONTACTINFORMATION>Contact Information</CONTACTINFORMATION>
+	<COURSESFOOTER>Courses</COURSESFOOTER>
+	<CATEGORIES>Categories</CATEGORIES>
+	<CURRENTPASSWORD>Your Current Password</CURRENTPASSWORD>
+	<CONFIRMPASSWORD>Confirm password</CONFIRMPASSWORD>
+	<CHANGEPASSWORD>Change Your Password</CHANGEPASSWORD>
+	<CAPTCHA>Enter captcha</CAPTCHA>
+	<!-- D -->
+	<DATE>Date</DATE>
+	<!-- E -->
+	<EMAIL>Email</EMAIL>
+	<ENTEREMAIL>Enter email</ENTEREMAIL>
+	<EMAILPASSWORDNOTMATCH>Email and password do not match.</EMAILPASSWORDNOTMATCH>
+	<!-- F -->
+	<FORGOTPASSWORD>Forgot your password ?</FORGOTPASSWORD>
+	<FULLNAME>Fullname</FULLNAME>
+	<FINDUS>Find us on: </FINDUS>
+	
+	<!-- I -->
+	<IAMAMEMBER>Tôi là thành viên</IAMAMEMBER>
+	
+	<!-- G -->
+	
+	
+	<!-- H -->
+	
+	
+	
+	<!-- K -->
+	
+	
+	<!-- L -->
+	<LOGOUT>Logout</LOGOUT>
+	<LOGIN>Login</LOGIN>
+	<LATESTNEWS>Latest news</LATESTNEWS>
+	<LONGTEXT>Long Text</LONGTEXT>
+	<!-- M -->
+	<MESSAGE>Nội dung</MESSAGE>
+	<MESSGETNEWPASS>Please check your mail and get your new password.</MESSGETNEWPASS>
+	<MESSLOGOUT>Your logout is successfull.</MESSLOGOUT>
+	<!-- N -->
+	<NAME>Tên</NAME>
+	<NEWPASSWORD>New password</NEWPASSWORD>
+	<!-- O -->
+	<OTHERNEWS>Other News</OTHERNEWS>
+	<OTHERINFORMATION>Other information</OTHERINFORMATION>
+	<!-- P -->
+	<PASSWORD>Password</PASSWORD>
+	<PASSWORDAGAIN>Xác nhận mật khẩu</PASSWORDAGAIN>
+	<PERSONALINFORMATION>Student information</PERSONALINFORMATION>
+	<PHONENUMBER>Số điện thoại</PHONENUMBER>
+	<PRIVATEINFORMATION></PRIVATEINFORMATION>
+	<!-- Q -->
+	<QUICKVIEW>Xem nhanh</QUICKVIEW>
+	
+	<!-- R -->
+	<RESOURCEFOOTER>Resource</RESOURCEFOOTER>
+	<READMORE>Read more</READMORE>
+	<READALL>View all</READALL>
+	<REQUESTBROCHURE>Request A Brochure</REQUESTBROCHURE>
+	<REQUESTDRIVE>Driving Try out</REQUESTDRIVE>
+
+	<!-- S -->
+	<SEND>Send</SEND>
+	<SAVE>Save</SAVE>
+	<SHORTTEXT>Short Text</SHORTTEXT>
+	<!-- T -->
+	<TECHNICAL>Kĩ thuật</TECHNICAL>
+	<TITLE>Tiêu đề</TITLE>
+	<TAGS>Tags</TAGS>
+	<!-- U -->
+	<USERNAME>Username</USERNAME>
+	<!-- V -->
+	<VIEWMORE>View more</VIEWMORE>
+	<!-- Y -->
+	<YOUSHOULDKNOW>You should know</YOUSHOULDKNOW>
+	
+	<!-- W -->
+	
+	
+</CONFIG>
