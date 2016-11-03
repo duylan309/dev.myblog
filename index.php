@@ -2,7 +2,11 @@
 
 define('ENVIRONMENT', 'development');
 
+<<<<<<< HEAD
 # i don't want to change my code 3
+=======
+# i don't want to change my code 2
+>>>>>>> 1d7cda694ccf396bd17db83463629aae708a8fa9
 
 if (defined('ENVIRONMENT'))
 {
